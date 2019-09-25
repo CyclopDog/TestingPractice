@@ -1,0 +1,24 @@
+{
+  "name": "cdldiceapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "mini-css-extract-plugin": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  }
+}
