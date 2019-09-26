@@ -4,4 +4,5 @@ const capitalize = (string) => {
   return beg + end
 }
 
-module.exports = capitalize;
+//module.exports = capitalize;
+export default capitalize
