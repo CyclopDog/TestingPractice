@@ -14,4 +14,4 @@ const analyze = (arr = []) => {
   return obj
 }
 
-module.exports = analyze;
+export default analyze
