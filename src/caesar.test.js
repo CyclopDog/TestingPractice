@@ -13,5 +13,5 @@ test('same case', () => {
 })
 
 test('puncuation', () => {
-  expect(caesar("he.llo",1)).toBe("jg.nnq");
+  expect(caesar("he.llo",2)).toBe("jg.nnq");
 })
