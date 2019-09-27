@@ -2,24 +2,23 @@
   "name": "cdldiceapp",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "watch": "webpack --watch",
+    "watch": "jest --watch",
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bulma": "*",
-    "css-loader": "*",
-    "extract-text-webpack-plugin": "*",
-    "jest": "^24.9.0",
-    "mini-css-extract-plugin": "*",
-    "node-sass": "*",
-    "sass-loader": "*",
-    "style-loader": "*",
-    "webpack": "*",
-    "webpack-cli": "*"
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0"
   }
 }
